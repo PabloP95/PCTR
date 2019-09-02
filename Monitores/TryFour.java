@@ -2,7 +2,7 @@
 /**
  * 
  * @author Pablo
- *	Puede dar lugar a procesos ansiosos(también conocidos como procvesos hambrientos)
+ *	Puede dar lugar a procesos ansiosos(tambiÃ©n conocidos como procvesos hambrientos)
  */
 
 
