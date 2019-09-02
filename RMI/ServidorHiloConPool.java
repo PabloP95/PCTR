@@ -1,10 +1,10 @@
 
 /**
  * @author Pablo Piedad Garrido
- * Este programa es una modificación del programa dado
+ * Este programa es una modificaciÃ³n del programa dado
  * por el profesor de la asignatura.
  * 
- * En este utilizamos pool de threads para que la implementación
+ * En este utilizamos pool de threads para que la implementaciÃ³n
  * sea mejor
  */
 
