@@ -8,7 +8,7 @@ import java.util.concurrent.*;
  *
  *	Si se quiere revisar en Eclipse, es necesario realizar lo siguiente:
  *
- *	Vamos a la pestaña Project, y luego hacemos click en Properties. 
+ *	Vamos a la pestaÃ±a Project, y luego hacemos click en Properties. 
  *	Nos saldra una ventana con diferentes propiedades del proyecto
  *	Solo nos importa una, la que pone "Java Compiler"
  *	En ella, debemos pulsar la unica caja que aparece arriba
