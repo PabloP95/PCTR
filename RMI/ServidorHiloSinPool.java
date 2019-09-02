@@ -1,11 +1,11 @@
 
 /**
  * @author Pablo Piedad Garrido
- * Este programa es una modificaciÛn del programa dado
+ * Este programa es una modificaci√≥n del programa dado
  * por el profesor de la asignatura.
  * 
- * En este  no utilizamos pool de threads por ello, la implementaciÛn ser· peor
- * y el tiempo que tarde ser· mayor
+ * En este  no utilizamos pool de threads por ello, la implementaci√≥n ser√° peor
+ * y el tiempo que tarde ser√° mayor
  */
 
 
@@ -71,7 +71,7 @@ public class ServidorHiloSinPool
 	}
 
 /**
- * MAIN : Aqui no utilizamos un pool de hilos, por lo que va a tardar m·s la ejecuciÛn del programa
+ * MAIN : Aqui no utilizamos un pool de hilos, por lo que va a tardar m√°s la ejecuci√≥n del programa
  * @param args
  */
 public static void main (String[] args)
