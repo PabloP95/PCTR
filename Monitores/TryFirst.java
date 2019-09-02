@@ -2,7 +2,7 @@
 public class TryFirst {
 	static final int iter = 2000000; //Se pone fina l para que no se pueda variar
 	public static volatile int enteroCompartido=0; //Volatile = Variable volatil : El valor d ela variable es leido y escrito desde memoria principal
-	//Con volatile se asegura que el valor de la variable, en este caso enteroCompartido, es siempre el m·s actualizado
+	//Con volatile se asegura que el valor de la variable, en este caso enteroCompartido, es siempre el m√°s actualizado
 	
 	static volatile int turn = 1;
 	
@@ -13,7 +13,7 @@ public class TryFirst {
 			for(int i=0;i<iter;i++)
 			{
 				while(turn!=1)
-					Thread.yield();//Deja paso y no se ejecuta la regiÛn crÌtica
+					Thread.yield();//Deja paso y no se ejecuta la regi√≥n cr√≠tica
 				enteroCompartido++; //SECCION CRITICA
 				
 				turn = 2;
@@ -28,7 +28,7 @@ public class TryFirst {
 			for(int i=0;i<iter;i++)
 			{
 				while(turn!=2)
-					Thread.yield();//Deja paso y no se ejecuta la regiÛn crÌtica
+					Thread.yield();//Deja paso y no se ejecuta la regi√≥n cr√≠tica
 				enteroCompartido--; //SECCION CRITICA
 				
 				turn = 1;
