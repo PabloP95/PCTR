@@ -2,7 +2,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 /**
-* @author Fernando Pacheco Ibáñez.
+* @author Fernando Pacheco IbÃ¡Ã±ez.
 * @version 1.0
 */
 public class BakeryTwo implements Runnable {
@@ -37,7 +37,7 @@ turno[i] = 0;
 }
 /**
 * @param v Vector de enteros
-* @return Máximo del vector
+* @return MÃ¡ximo del vector
 */
 private int max(int[] v) {
 int max = v[0];
@@ -48,7 +48,7 @@ max = v[i];
 return max;
 }
 /**
-* @param args No se utilizan parámetros por línea de comandos
+* @param args No se utilizan parÃ¡metros por lÃ­nea de comandos
 */
 public static void main(String[] args) {
 ThreadPoolExecutor pool = (ThreadPoolExecutor)Executors.newCachedThreadPool();
@@ -66,9 +66,9 @@ try {
 pool.awaitTermination(10, TimeUnit.SECONDS);
 System.out.println("Valor de la variable compartida: " + enteroCompartido);
 if(N % 2 == 0)
-System.out.println("Debería ser 0.");
+System.out.println("DeberÃ­a ser 0.");
 else
-System.out.println("Debería ser 5000.");
+System.out.println("DeberÃ­a ser 5000.");
 } catch(InterruptedException e) {}
 }
 }
