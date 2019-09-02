@@ -44,7 +44,7 @@ public class pcMonitor {
 	 * Con este metodo estamos cuidando de que no haya indeterminismo a la hora
 	 * de extraer datos. Ademas, bloqueamos los hilos que no cumplan con la
 	 * condicion de guarda establecida. Dichos hilos se van a una cola de
-	 * espera, en la cual se quedar·n hasta que no se ejecute el metodo
+	 * espera, en la cual se quedar√°n hasta que no se ejecute el metodo
 	 * notifyAll().
 	 */
 	public synchronized void extraer() {
