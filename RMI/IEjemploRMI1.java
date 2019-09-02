@@ -1,6 +1,6 @@
 /**Ejemplo del interfaz remoto para implementar un RMI
  * @author Antonio Tomeu
- *Es un servidor remoto aritmético.
+ *Es un servidor remoto aritmÃ©tico.
  */
  
  
