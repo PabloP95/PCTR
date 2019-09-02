@@ -4,9 +4,9 @@
  *	Algoritmo de Dekker para tres procesos
  *
  *	Si el algoritmo es correcto, debe salir que el numero de procesos en region critica es 1
- *	Es posible que aparezca un fallo en una iteraciÛn, pero no se alarme, que esto es normal
+ *	Es posible que aparezca un fallo en una iteraci√≥n, pero no se alarme, que esto es normal
  *
- *	Para m·s datos vea el documento analisis.pdf
+ *	Para m√°s datos vea el documento analisis.pdf
  */
 public class AlgDekker {
 	
