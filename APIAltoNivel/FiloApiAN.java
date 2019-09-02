@@ -13,7 +13,7 @@ public class FiloApiAN {
 	}
 
 	/**
-	 * Metodo start_eating Indica que un filosofo podr· comer si posee dos
+	 * Metodo start_eating Indica que un filosofo podr√° comer si posee dos
 	 * tenedores
 	 * 
 	 * @param numFil
