@@ -1,6 +1,6 @@
 /**
  * @author Pablo Piedad Garrido
- * Este programa implementa el algoritmo de la panaderÌa de Lamport
+ * Este programa implementa el algoritmo de la panader√≠a de Lamport
  * Es uno de los algoritmos que controlan la exclusion mutua de procesos
  * 
  * En este caso hemos utilizado un pool de threads
@@ -86,7 +86,7 @@ public class algoLamport implements Runnable{
 		ThreadPoolExecutor ex = (ThreadPoolExecutor)Executors.newCachedThreadPool();
 		N = Runtime.getRuntime().availableProcessors();
 		
-		System.out.println("El numero de procesos ser· igual al numero de procesadores que posea el ordenador");
+		System.out.println("El numero de procesos ser√° igual al numero de procesadores que posea el ordenador");
 		System.out.println("En este ordenador hay "+N+" procesos");
 		
 		iter = 200000;
