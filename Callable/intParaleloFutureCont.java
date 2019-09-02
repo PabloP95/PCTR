@@ -1,9 +1,9 @@
 /**
  * @author Pablo Piedad Garrido
  * 
- * En este programa hacemos una APROXIMACIÓN del valor de 
+ * En este programa hacemos una APROXIMACIÃ“N del valor de 
  * la integral [0-1] de sin(x).
- * Ésta varía según el número de puntos que lancemos
+ * Ã‰sta varÃ­a segÃºn el nÃºmero de puntos que lancemos
  * Utilizamos grano grueso para realizar el cometido 
  * anteriormente descrito.
  * 
@@ -42,7 +42,7 @@ public class intParaleloFutureCont implements Callable<Integer> {
 	 * En este calculamos el numero de puntos que cumplan la condicion
 	 * y los sumamos, para posteriormente devolverlos como un objeto Integer.
 	 * 
-	 * Dicho objeto Integer lo captará la ArrayList
+	 * Dicho objeto Integer lo captarÃ¡ la ArrayList
 	 */
 	
 	public Integer call()
@@ -61,8 +61,8 @@ public class intParaleloFutureCont implements Callable<Integer> {
 	 * MAIN : 
 	 * En este introducimos por teclado el numero de puntos a lanzar mediante entrada estandar.
 	 * No se introduce mediante linea de comandos.
-	 * Esta implementación es la más potente, ya que no necesita utilizar bloques sincronizados
-	 * por ello, el tiempo de ejecución del programa es mucho menor que en las anteriores implementaciones
+	 * Esta implementaciÃ³n es la mÃ¡s potente, ya que no necesita utilizar bloques sincronizados
+	 * por ello, el tiempo de ejecuciÃ³n del programa es mucho menor que en las anteriores implementaciones
 	 * @see intParalelouniCont
 	 * @see intParaleloMultiCont
 	 * @param args
