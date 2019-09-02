@@ -21,8 +21,8 @@ public class pcHebras implements Runnable {
 	}
 
 	/**
-	 * Segun el numero de hilos puede insertar un valor j, el cual valdr· 0, y
-	 * se ir· incrementando, o extraer un valor
+	 * Segun el numero de hilos puede insertar un valor j, el cual valdr√° 0, y
+	 * se ir√° incrementando, o extraer un valor
 	 */
 	public void run() {
 		switch (nThreads) {
@@ -45,7 +45,7 @@ public class pcHebras implements Runnable {
 
 	/**
 	 * MAIN : Aqui se lanzan los hilos, 10 para ser exactos. 5 de ellos
-	 * insertar·n datos, mientras que los otros 5 extraer·n dichos datos
+	 * insertar√°n datos, mientras que los otros 5 extraer√°n dichos datos
 	 * 
 	 * @param args
 	 */
