@@ -24,11 +24,11 @@ public class monitorCadena {
 	}
 
 	/**
-	 * Con este mÈtodo podemos insertar elementos de tipo matriz en el vector de
+	 * Con este m√©todo podemos insertar elementos de tipo matriz en el vector de
 	 * matrices. Cada vez que se inserta un elemento el contador cont se
-	 * incrementa a 1, para asÌ controlar el n˙mero de elementos insertados, y
-	 * en el caso en que el contador sea igual al n˙mero m·ximo de elementos el
-	 * hilo se bloquear·.
+	 * incrementa a 1, para as√≠ controlar el n√∫mero de elementos insertados, y
+	 * en el caso en que el contador sea igual al n√∫mero m√°ximo de elementos el
+	 * hilo se bloquear√°.
 	 * 
 	 * @param valor
 	 *            = Elemento matriz que se va a insertar en el vector de
@@ -48,13 +48,13 @@ public class monitorCadena {
 	}
 
 	/**
-	 * Con este mÈtodo extraemos los elementos del vector de matrices que sea,
+	 * Con este m√©todo extraemos los elementos del vector de matrices que sea,
 	 * disminuyendo el contador cont. Cuando el contador sea igual a 0, el hilo
 	 * se bloquea, esperando a que el contador sea mayor que 0. Dicho hilo se
 	 * dirige a la cola de wait-set.
 	 * 
 	 * @return valor.mat = Valor extraido del vector de matrices
-	 *         correspondiente. Dicho valor es una matriz, que ser· cuadrada
+	 *         correspondiente. Dicho valor es una matriz, que ser√° cuadrada
 	 */
 	public synchronized double[][] extraer() {
 		matriz valor;
