@@ -40,7 +40,7 @@ public class usaConductores implements Runnable {
 				System.out.println("Introduzca la edad del conductor : ");
 				int edad = num.nextInt();
 				C.setEdad(edad);
-				c.añadir(C);break;
+				c.aÃ±adir(C);break;
 			case 1:
 				System.out.println("Introduzca el DNI del conductor que desea borrar");
 				String D = Str.nextLine();
