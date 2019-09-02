@@ -1,6 +1,6 @@
 /**
  * @author Pablo Piedad Garrido
- * Esta es una implementación del programa que dio el profesor de esta asignatura
+ * Esta es una implementaciÃ³n del programa que dio el profesor de esta asignatura
  * Dicho programa es clienteHilos.java
  */
 
@@ -13,7 +13,7 @@ public class clienteMultiple
 {
 	/**
 	 * MAIN:
-	 * En esta implementación utilizamos un bucle for para que hayan
+	 * En esta implementaciÃ³n utilizamos un bucle for para que hayan
 	 * tantos sockets como peticiones se introduzcan por la linea de comandos
 	 * @param args
 	 */
