@@ -29,9 +29,9 @@ public class piParalelo implements Runnable {
 	}
 
 	/**
-	 * Programa que realiza una aproximaciÛn de PI a traves del metodo de
-	 * MonteCarlo. Ser· necesario la ejecuciÛn en una consola de comandos. Se
-	 * deber· ejecutar este programa poniendo el numero de hilos a lanzar y el
+	 * Programa que realiza una aproximaci√≥n de PI a traves del metodo de
+	 * MonteCarlo. Ser√° necesario la ejecuci√≥n en una consola de comandos. Se
+	 * deber√° ejecutar este programa poniendo el numero de hilos a lanzar y el
 	 * numero de puntos a lanzar, separados por un espacio.
 	 * 
 	 * Se utiliza un entero atomico inicializado a 0.
