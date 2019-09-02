@@ -4,7 +4,7 @@ import java.util.concurrent.Executors;
 
 /**
  * En este programa usa el {@link monitorCadena}, por ello hay que ponerlo en el
- * código de este programa.
+ * cÃ³digo de este programa.
  * 
  * @author Pablo Piedad Garrido
  */
@@ -29,7 +29,7 @@ public class UsaMonitorCadena implements Runnable {
 	/**
 	 * @override
 	 * 
-	 *           En este método run sobrescrito utilizamos un switch con tres
+	 *           En este mÃ©todo run sobrescrito utilizamos un switch con tres
 	 *           opciones, cada una es una de las etapas de la cadena de
 	 *           montaje.
 	 */
