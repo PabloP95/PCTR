@@ -11,7 +11,7 @@ public class monitorDrakkar {
 	{
 		while(marmita==0)
 		{
-			notifyAll(); //<-Tiene que mandarle al cocinero la señal para que empieza a cocinar
+			notifyAll(); //<-Tiene que mandarle al cocinero la seÃ±al para que empieza a cocinar
 			try{
 				wait();	
 			}catch(Exception e){}
