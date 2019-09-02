@@ -5,7 +5,7 @@ public class Conductores {
 
 	private static ArrayList<Conductor> cond = new ArrayList<Conductor>();
 	/**
-	 * Con este mÈtodo se introducen en el ArrayList tres objetos de la clase Conductor.
+	 * Con este m√©todo se introducen en el ArrayList tres objetos de la clase Conductor.
 	 * Lo ponemos estatico, asi podemos introducir elementos en el arraylist, y se refleja aqui.
 	 */
 	public synchronized static void elemenprin()
@@ -18,17 +18,17 @@ public class Conductores {
 				"Calle Ventormenta 25", 20));
 	}
 	/**
-	 * MÈtodo responsable de aÒadir un objeto de clase Conductor.
+	 * M√©todo responsable de a√±adir un objeto de clase Conductor.
 	 * Aqui se introducen los datos del conductor, tales como el nombre, o el tipo de permiso de conducir
 	 */
-	public synchronized void aÒadir(Conductor C) {
+	public synchronized void a√±adir(Conductor C) {
 		elemenprin();
 		cond.add(C);
 		System.out.println("Se ha introducido un nuevo conductor");
 	}
 /**
  * Con este metodo, localizamos al conductor, si es que existe, gracias al DNI introducido previamente en usaConductores
- * Si lo encuentra, lo elimina, y si no lo encuentra no har· absolutamente nada
+ * Si lo encuentra, lo elimina, y si no lo encuentra no har√° absolutamente nada
  * @param DNI
  */
 	synchronized void borrar(String DNI) {
@@ -42,7 +42,7 @@ public class Conductores {
 		}
 	}
 /**
- * Con este mÈtodo podemos localizar al conductor con el mismo DNI que aquel que se ha introducido previamente en la clase usaConductores
+ * Con este m√©todo podemos localizar al conductor con el mismo DNI que aquel que se ha introducido previamente en la clase usaConductores
  * y mostrar todos los datos de dicho conductor.
  * @param DNI
  */
