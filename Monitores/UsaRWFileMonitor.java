@@ -3,7 +3,7 @@ import java.util.concurrent.Executors;
 
 /**
  * Este programa usa el monitor {@link RWFileMonitor} para controlar la
- * exclusión mutua entre hilos.
+ * exclusiÃ³n mutua entre hilos.
  * 
  * @author Pablo Piedad Garrido
  */
@@ -22,7 +22,7 @@ public class UsaRWFileMonitor implements Runnable {
 	}
 
 	/**
-	 * @override En este sobrescrito método run utilizaremos un switch para
+	 * @override En este sobrescrito mÃ©todo run utilizaremos un switch para
 	 *           controlar que hilos se comportan como lectores y cuales se
 	 *           comportan como escritor.
 	 */
@@ -41,7 +41,7 @@ public class UsaRWFileMonitor implements Runnable {
 	}
 
 	/**
-	 * MAIN: Se crea un pool fijo de hilos de tamaño 8, y luego ejecutamos
+	 * MAIN: Se crea un pool fijo de hilos de tamaÃ±o 8, y luego ejecutamos
 	 * dichos hilos mediante un ejecutor.
 	 * 
 	 * @param args
